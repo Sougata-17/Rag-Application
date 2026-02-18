@@ -1,8 +1,8 @@
-RAG Chatbot — Document Intelligence System
+# RAG Chatbot — Document Intelligence System
 A Retrieval-Augmented Generation (RAG) based AI chatbot that answers user queries from uploaded documents (PDF or TXT) using semantic search and a Large Language Model.
 Instead of generating generic responses, the chatbot retrieves relevant information from documents and produces accurate, context-aware answers.
 
-🚀 Features
+## 🚀 Features
 ✅ Upload PDF or TXT documents
 ✅ Automatic document processing and indexing
 ✅ Semantic search using vector embeddings
@@ -12,7 +12,7 @@ Instead of generating generic responses, the chatbot retrieves relevant informat
 ✅ Interactive Streamlit user interface
 ✅ Real-time document question answering
 
-🧠 How It Works
+## 🧠 How It Works
 1.Document Ingestion Pipeline
 2.Upload document (PDF/TXT)
 3.Extract text from file
@@ -20,15 +20,15 @@ Instead of generating generic responses, the chatbot retrieves relevant informat
 5.Convert chunks into embeddings
 6.Store embeddings in FAISS vector database
 
-Question Answering Pipeline
-
+## Question Answering Pipeline
 1.User asks a question
 2.Convert question into embedding
 3.Retrieve most relevant document chunks
 4.Send context + question to LLM
 5.Generate final answer
 
-ARCHITECTURE:
+## ARCHITECTURE:
+
 User → Streamlit UI → FastAPI Server
                 ↓
          Document Processing
